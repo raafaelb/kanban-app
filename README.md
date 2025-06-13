@@ -12,11 +12,8 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
   - [Pré-requisitos](#pré-requisitos)
   - [Instalação](#instalação)
   - [Configuração](#configuração)
-- [🔐 Credenciais Padrão](#-credenciais-padrão)
-- [🚀 Como Usar](#-como-usar)
-- [🧪 Testando a Aplicação](#-testando-a-aplicação)
-- [📋 Recursos Adicionais](#-recursos-adicionais)
-- [📄 Licença](#-licença)
+- [🔐 Credenciais Padrão](#credenciais-padrão)
+- [🚀 Como Usar](#como-usar)
 
 ---
 
@@ -119,14 +116,14 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
 
 
 
-### Credenciais Padrão
+### 🔐 Credenciais Padrão
 
 Um usuário administrador é criado automaticamente durante o seeder inicial:
 Email: admin@voxtecnologia.com.br
 Senha: password
 
 
-#### Como Usar
+#### 🚀 Como Usar
 
 1. Acesse a aplicação em http://localhost:8000 (ou a porta exibida pelo artisan serve).
 2. Faça login com as credenciais padrão ou registre um novo usuário.
