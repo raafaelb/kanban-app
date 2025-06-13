@@ -12,9 +12,8 @@ class BoardController extends Controller
 {
     public function index($board = null)
     {
-        // Carregar quadros com contagem de colunas e ordenar por data de criação
-        $boards = auth()->user()->boards()
-            ->withCount('columns')
+        //Seleciona todos os boards
+        $boards = Board::withCount('columns')
             ->orderBy('created_at', 'asc')
             ->get();
 
@@ -26,7 +25,7 @@ class BoardController extends Controller
         }
 
         // Verificar se o usuário tem permissão para acessar o quadro
-        abort_unless(auth()->user()->id === $board->user_id, 403);
+        // abort_unless(auth()->user()->id === $board->user_id, 403);
 
         // Carregar colunas e tarefas ordenadas
         $board->load([

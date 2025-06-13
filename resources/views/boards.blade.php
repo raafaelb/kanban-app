@@ -41,7 +41,7 @@
                         <span class="d-none d-sm-inline">{{ Str::limit($board->name, 15) }}</span>
                     </button>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="boardsDropdown">
-                        @foreach(auth()->user()->boards as $userBoard)
+                        @foreach($boards as $userBoard)
                             <li>
                                 <a class="dropdown-item {{ $board->id === $userBoard->id ? 'active' : '' }}"
                                    href="{{ route('boards.show', $userBoard->slug) }}">
