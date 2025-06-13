@@ -82,18 +82,22 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
    cd kanban-app
 
 2. **Instale dependências PHP**
+    ```bash
     composer install
 
 3. **Instale dependências JavaScript**
+    ```bash
     npm install
 
 ### Configuração
 
 1. **Copie e configure o .env**
+    ```bash
     cp .env.example .env
     php artisan key:generate
 
 2. **Ajuste variáveis de banco de dados no .env**
+    ```bash
     DB_CONNECTION=pgsql
     DB_HOST=127.0.0.1
     DB_PORT=5432
@@ -102,12 +106,15 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
     DB_PASSWORD=password
 
 3. **Execute migrações e seeders**
+    ```bash
     php artisan migrate --seed
 
 4. **Compile os assets**
+    ```bash
     npm run build
 
 5. **Inicie o servidor de desenvolvimento**
+    ```bash
     php artisan serve
 
 
