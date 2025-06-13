@@ -75,7 +75,7 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
 
 1. **Clone o repositório**  
    ```bash
-   git clone https://github.com/raafaelb/kanban.git
+   git clone https://github.com/raafaelb/kanban-app.git
    cd kanban-app
 
 2. **Instale dependências PHP**
