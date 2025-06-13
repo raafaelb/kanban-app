@@ -12,8 +12,8 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
   - [Pré-requisitos](#pré-requisitos)
   - [Instalação](#instalação)
   - [Configuração](#configuração)
-- [🔐 Credenciais Padrão](#credenciais-padrão)
-- [🚀 Como Usar](#como-usar)
+- [🔐 Credenciais Padrão](#-credenciais-padrão)
+- [🚀 Como Usar](#-como-usar)
 
 ---
 
@@ -116,19 +116,19 @@ Sistema completo de gerenciamento de tarefas estilo Kanban (semelhante ao Trello
 
 
 
-### 🔐 Credenciais Padrão
+## 🔐 Credenciais Padrão
 
-Um usuário administrador é criado automaticamente durante o seeder inicial:
-Email: admin@voxtecnologia.com.br
-Senha: password
+Um usuário administrador é criado automaticamente durante o seeder inicial:  
+**Email:** `admin@voxtecnologia.com.br`  
+**Senha:** `password`
 
 
-#### 🚀 Como Usar
+## 🚀 Como Usar
 
-1. Acesse a aplicação em http://localhost:8000 (ou a porta exibida pelo artisan serve).
+1. Acesse a aplicação em [http://localhost:8000](http://localhost:8000) (ou a porta exibida pelo `artisan serve`).
 2. Faça login com as credenciais padrão ou registre um novo usuário.
 3. Adicione/edite colunas com cores personalizadas.
 4. Crie tarefas, defina prioridade e prazos.
 5. Arraste tarefas entre colunas para atualizar o status.
-6. Utilize filtros de prioridade na interface para visualizar subset de tarefas.
+6. Utilize filtros de prioridade na interface para visualizar um subconjunto de tarefas.
 7. Em telas menores, use a sidebar recolhível para navegação.
